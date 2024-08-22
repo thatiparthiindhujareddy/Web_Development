@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.sectionHomePage-bg-container{
+  background-image:url("https://wallpapers.com/images/featured/beach-eoxvk1itsaibfbo1.jpg");
+  height:100vh;
+  background-size:cover;
+}
+.card-container{
+  background-color:#ffffff;
+  height:30vh;
+  border-radius:15px;
+  text-align: center;
+  padding:15px;
+}
+
+.card-container-heading{
+  font-family: sans-serif;
+  font-size: 28px;
+  font-weight:bold;
+  color:#000435;
+}
+.card-container-description{
+  font-family: arial;
+  font-size: 16px;
+  font-weight:normal;
+}
+.card-container-button{
+  border-radius:20px;
+  background-color: rgb(0, 72, 255);
+  color:#ffffff;
+  padding-top:10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right:20px;
+}
+
+.favouritePlaces-bg-container{
+  background-image: url("https://www.psychologs.com/wp-content/uploads/2023/08/Hodophile-A-Person-who-Loves-to-Travel.jpg");
+  height:100vh;
+  background-size:cover;
+  width:100%;
+}
+
+.favouritePlaces-bg-container-heading{
+  color:#ffffff;
+  font-family:Arial;
+  font-size: 32px;
+  font-weight:bold;
+  text-align: center;
+  padding:10px;
+
+}
+
+.favouritePlace-card-container{
+  background-color:#ffffff;
+  padding:10px;
+  border-radius:10px;
+  margin:20px;
+}
+
+.favouritePlace-card-container-heading{
+  color: #000435;
+  font-family: Arial;
+  font-size: 24px;
+  font-weight:bold;
+  text-align:center;
+}
+.favouritePlace-card-container-para{
+  font-family:arial;
+  font-size:16px;
+  font-weight:normal;
+
+}
+
+.favouritePlace-card-container-img{
+  padding-top:5px;
+  padding-right:5px;
+  height:80px;
+  width:80px;
+}
+
+.favouritePlace-button{
+border-radius:20px;
+background-color: rgb(0, 72, 255);
+color:#ffffff;
+padding-top:10px;
+padding-bottom: 10px;
+padding-left: 20px;
+padding-right:20px;
+margin-left:20px;
+}
+.TajMahalDetailedView-bg-container{
+  background-image:url("https://static.nationalgeographic.co.uk/files/styles/image_3200/public/coverstorygreeceawlgr11242hr.jpg?w=1600&h=900");
+  height:110vh;
+  background-size: cover;
+}
+
+.detailedView-Heading{
+color:#ffffff;
+font-family:Arial;
+font-size: 32px;
+font-weight:bold;
+text-align: center;
+padding:10px;
+}
+
+.TajMahal-card-container{
+  background-color: #ffffff;
+  margin-left:20px;
+  margin-right:20px;
+}
+
+.TajMahal-card-container-Heading{
+  color:#000435;
+  padding: 15px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.TajMahal-card-container-para{
+  padding:15px;
+  font-size:16px;
+  font-weight:normal;
+  font-family:arial;
+}
+.DeatiledView-button{
+border-radius:20px;
+background-color: rgb(0, 72, 255);
+color:#ffffff;
+padding-top:10px;
+padding-bottom: 10px;
+padding-left: 20px;
+padding-right:20px;
+margin-left:20px;
+}
+/* Media Query for Smaller Screens */
+@media only screen and (max-width: 600px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}

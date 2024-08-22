@@ -1,0 +1,87 @@
+
+
+.sectionHomePage-bg-container{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/podcasts-bg.png");
+    background-size: cover;
+    height:30vh;
+}
+.sectionHomePage-heading{
+    color:#ffffff;
+    font-family: arial;
+    padding:15px;
+}
+.sectionHomePage-bottom-section{
+    background-color: #ffffff;
+    padding: 15px;
+}
+.sectionHomePage-card-container{
+  background-color: white;
+  width:150px;
+  border-radius: 9px;
+  padding: 15px;
+  margin:15px;
+
+}
+.sectionHomePage-card-img{
+    width:150px;
+}
+.sectionHomePage-card-heading{
+    padding-top:5px;
+    font-size: 18px;
+    font-family: arial;
+    color:#151765;
+    font-weight:bold;
+}
+.sectionHomePage-card-para{
+    font-size:15px;
+    font-family:arial;
+    color:#5a7184;
+}
+.sectionPuriJagannadhPage-heading{
+    color: #5a7184;
+    font-size: 16px;
+    font-weight:normal;
+    padding:10px;
+}
+.PuriJagannadh-card-container1{
+    background-color:#151765;
+    padding:10px;
+    color:#ffffff;
+}
+.PuriJagannadh-img{
+    height:100px;
+    width:100px;
+}
+.PuriJagannadh-card-container1-para{
+    padding-left:10px;
+}
+.PuriJagannadh-card-container1-head{
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight:bold;
+}
+.PuriJagannadh-card-container2{
+    color:#151765;
+    padding:10px;
+    background-color:#ffffff;
+}
+.PuriJagannadh-card-container2-para{
+    padding-left:10px;
+}
+.PuriJagannadh-card-container2-head{
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight:bold;
+}
+.PuriJagannadh-card-container2-para2{
+    padding-left: 10px;
+    font-size: 12px;
+}
+.PuriJagannadh-btn{
+    background-color: #151765;
+    color:#ffffff;
+    border-radius:15px;
+    padding-left:20px;
+    padding-right:20px;
+    margin:10px;
+}
